@@ -1,4 +1,5 @@
 <template>
+  <!-- Main content -->
   <div class="content">
     <div class="container-fluid">
       <div class="row">
@@ -58,15 +59,6 @@
               <p class="card-text">
                 With supporting text below as a natural lead-in to additional
                 content.
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Tooltip on top"
-                >
-                  Tooltip on top
-                </button>
               </p>
               <router-link to="/">Home</router-link>
             </div>
@@ -80,14 +72,7 @@
   </div>
   <!-- /.content -->
 </template>
-<script>
-import $ from "jquery";
 
-export default {
-  mounted() {
-    $(function() {
-      $('[data-toggle="tooltip"]').tooltip();
-    });
-  },
-};
+<script>
+export default {};
 </script>
